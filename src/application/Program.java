@@ -15,7 +15,6 @@ public class Program {
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 
-	
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
 		System.out.println("===TEST 1: seller findById ====");
@@ -61,9 +60,7 @@ public class Program {
 	
 	public static void Program2() {
 
-		
 		DepartmentDao departmentDao = DaoFactory.createDapartmentDao();
-		
 		
 		System.out.println("===TEST 1: Department findById ====");
 		Department department = departmentDao.findById(2);
